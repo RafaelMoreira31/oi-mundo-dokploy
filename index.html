@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Deploy com Dokploy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 { color: #007bff; }
+        .status {
+            color: #28a745;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🚀 Oi, Mundo!</h1>
+        <p>Meu container rodando via <strong>Dokploy</strong></p>
+        <p>Imagem vinda diretamente do <strong>AWS ECR</strong></p>
+        <div class="status">✅ Deploy realizado com sucesso!</div>
+    </div>
+</body>
+</html>
