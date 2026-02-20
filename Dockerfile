@@ -9,6 +9,6 @@ RUN rm /usr/share/nginx/html/index.html
 COPY . /usr/share/nginx/html
 
 # 3. Informamos que a porta 80 será usada
-EXPOSE 80
+EXPOSE 8083
 
 # O Nginx inicia automaticamente, não precisa de CMD
