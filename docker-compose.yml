@@ -2,7 +2,7 @@ version: '3.8'
 services:
   web:
     image: nginx:alpine
-    command: /bin/sh -c "echo '<h1>Teste Dokploy e Github! Rafael Moreira</h1>' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
+    command: /bin/sh -c "echo '<h1>Teste Dokploy, Github e CS! Rafael Moreira</h1>' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
     networks:
       - dokploy-network
 
