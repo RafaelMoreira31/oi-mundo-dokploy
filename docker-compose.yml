@@ -5,6 +5,7 @@ services:
     command: /bin/sh -c "echo '<h1>Teste Dokploy e Github! Rafael Moreira</h1>' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
     networks:
       - dokploy-network
+
 networks:
   dokploy-network:
     external: true
