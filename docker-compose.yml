@@ -10,7 +10,6 @@ services:
       placement:
         constraints:
           - node.role != none
-
 networks:
   dokploy-network:
     external: true
