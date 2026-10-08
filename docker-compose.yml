@@ -6,14 +6,10 @@ services:
     networks:
       - dokploy-network
     deploy:
-  <Step title="Aplicar o deploy" subtitle="1 min">
-    Clique no botão **Deploy** para atualizar as instâncias.
-    * **Como verificar:** Execute `docker ps --filter name=rafael2` no terminal para verificar se novas instâncias foram distribuídas.
-  </Step>
-    replicas: 2
-    placement:
-      constraints:
-        - node.role != none
+      replicas: 2
+      placement:
+        constraints:
+          - node.role != none
 
 networks:
   dokploy-network:
